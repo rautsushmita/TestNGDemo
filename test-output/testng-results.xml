@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="216" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="216" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+      <class name="TestNG.DemoTestNG">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:TestNG.DemoTestNG@e874448]" name="beforesuite" is-config="true" duration-ms="13" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.DemoTestNG@e874448]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="startReport()[pri:0, instance:TestNG.DemoTestNG@e874448]" name="startReport" is-config="true" duration-ms="110" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[freemarker/ext/beans/BeansWrapperBuilder]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: freemarker/ext/beans/BeansWrapperBuilder
+at com.relevantcodes.extentreports.HTMLReporter.start(HTMLReporter.java:76)
+at com.relevantcodes.extentreports.Report.attach(Report.java:318)
+at com.relevantcodes.extentreports.ExtentReports.<init>(ExtentReports.java:86)
+at com.relevantcodes.extentreports.ExtentReports.<init>(ExtentReports.java:375)
+at TestNG.DemoTestNG.startReport(DemoTestNG.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: freemarker.ext.beans.BeansWrapperBuilder
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:TestNG.DemoTestNG@e874448]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="Test1()[pri:0, instance:TestNG.DemoTestNG@e874448]" name="Test1" duration-ms="0" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[freemarker/ext/beans/BeansWrapperBuilder]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: freemarker/ext/beans/BeansWrapperBuilder
+at com.relevantcodes.extentreports.HTMLReporter.start(HTMLReporter.java:76)
+at com.relevantcodes.extentreports.Report.attach(Report.java:318)
+at com.relevantcodes.extentreports.ExtentReports.<init>(ExtentReports.java:86)
+at com.relevantcodes.extentreports.ExtentReports.<init>(ExtentReports.java:375)
+at TestNG.DemoTestNG.startReport(DemoTestNG.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: freemarker.ext.beans.BeansWrapperBuilder
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNG.DemoTestNG@e874448]" name="getResult" is-config="true" duration-ms="0" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:TestNG.DemoTestNG@e874448]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="Test2()[pri:0, instance:TestNG.DemoTestNG@e874448]" name="Test2" duration-ms="0" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[freemarker/ext/beans/BeansWrapperBuilder]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: freemarker/ext/beans/BeansWrapperBuilder
+at com.relevantcodes.extentreports.HTMLReporter.start(HTMLReporter.java:76)
+at com.relevantcodes.extentreports.Report.attach(Report.java:318)
+at com.relevantcodes.extentreports.ExtentReports.<init>(ExtentReports.java:86)
+at com.relevantcodes.extentreports.ExtentReports.<init>(ExtentReports.java:375)
+at TestNG.DemoTestNG.startReport(DemoTestNG.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: freemarker.ext.beans.BeansWrapperBuilder
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNG.DemoTestNG@e874448]" name="getResult" is-config="true" duration-ms="0" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:TestNG.DemoTestNG@e874448]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="Test3()[pri:0, instance:TestNG.DemoTestNG@e874448]" name="Test3" duration-ms="0" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[freemarker/ext/beans/BeansWrapperBuilder]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: freemarker/ext/beans/BeansWrapperBuilder
+at com.relevantcodes.extentreports.HTMLReporter.start(HTMLReporter.java:76)
+at com.relevantcodes.extentreports.Report.attach(Report.java:318)
+at com.relevantcodes.extentreports.ExtentReports.<init>(ExtentReports.java:86)
+at com.relevantcodes.extentreports.ExtentReports.<init>(ExtentReports.java:375)
+at TestNG.DemoTestNG.startReport(DemoTestNG.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: freemarker.ext.beans.BeansWrapperBuilder
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNG.DemoTestNG@e874448]" name="getResult" is-config="true" duration-ms="0" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="AfterClass()[pri:0, instance:TestNG.DemoTestNG@e874448]" name="AfterClass" is-config="true" duration-ms="0" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="SKIP" signature="AfterTest()[pri:0, instance:TestNG.DemoTestNG@e874448]" name="AfterTest" is-config="true" duration-ms="0" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="SKIP" signature="AfterSuite()[pri:0, instance:TestNG.DemoTestNG@e874448]" name="AfterSuite" is-config="true" duration-ms="0" started-at="2019-01-09T10:20:06Z" finished-at="2019-01-09T10:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- TestNG.DemoTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
