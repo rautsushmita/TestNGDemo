@@ -87,6 +87,6 @@ public class DemoTestNG {
 	
 	@AfterSuite
 	public void AfterSuite(){
-		System.out.println("After Suite");
+		System.out.println("After Suite Method");
 	}
 }
